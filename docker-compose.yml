@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  multistagebuildsample:
+    image: multistagebuildsample
+    build:
+      context: .
+      dockerfile: MultistageBuildSample/Dockerfile
